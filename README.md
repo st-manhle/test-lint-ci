@@ -17,7 +17,7 @@ This is a eslint template for typescript
 - [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser) `^4.13.0`
 
 
-### How to use
+### How to install Eslint into your project
 
 - Install these below packages into your project:
 ```
@@ -27,7 +27,7 @@ npm install @typescript-eslint/parser@^4.13.0 --save-dev
 npm install @typescript-eslint/eslint-plugin@^4.13.0 --save-dev
 ```
 - Copy the `.eslintrc.js` and `.eslintignore` into your root project.
-- Update lint script into `package.json`. This script will check lint for all .ts files:
+- (Optional) Update lint script into `package.json`. This script will check lint for all .ts files:
 ```
 "script": {
   ...,
@@ -36,6 +36,7 @@ npm install @typescript-eslint/eslint-plugin@^4.13.0 --save-dev
 ```
 
 ### Enhancement
+- You can check lint with our sample code by writing code into `./src/index.ts`.
 - Install eslint extension `dbaeumer.vscode-eslint` for auto checking eslint when files change (Vscode).
 - Install prettier extension `esbenp.prettier-vscode` for use prettier to fix lint problem with eslint configuration (Vscode).
 - Want to update more rules. please check [eslint document](https://eslint.org/).
