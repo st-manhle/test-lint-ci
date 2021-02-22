@@ -36,7 +36,10 @@ npm install @typescript-eslint/eslint-plugin@^4.13.0 --save-dev
 ```
 
 ### Enhancement
-- You can check lint with our sample code by writing code into `./src/index.ts`.
+- You can check lint with our sample code:
+  + run `npm install`.
+  + Write some codes into `./src/index.ts`.
+  + run `npm run lint`.
 - Install eslint extension `dbaeumer.vscode-eslint` for auto checking eslint when files change (Vscode).
 - Install prettier extension `esbenp.prettier-vscode` for use prettier to fix lint problem with eslint configuration (Vscode).
 - Want to update more rules. please check [eslint document](https://eslint.org/).
