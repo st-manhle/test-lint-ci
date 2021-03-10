@@ -21,7 +21,7 @@ This is a eslint template for typescript
 
 - Install these below packages into your project:
 ```
-npm install typescript^4.1.3 --save-dev
+npm install typescript@^4.1.3 --save-dev
 npm install eslint@^7.18.0 --save-dev
 npm install @typescript-eslint/parser@^4.13.0 --save-dev
 npm install @typescript-eslint/eslint-plugin@^4.13.0 --save-dev
