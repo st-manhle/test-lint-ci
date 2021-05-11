@@ -27,6 +27,9 @@ jobs:
         run: |
           npm run lint
 
+      - name: Comment Action
+        uses: JungWinter/comment@v1.1.0
+
       - name: Read eslint.log.json
         id: read-issues
         if: always()
