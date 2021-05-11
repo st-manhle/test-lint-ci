@@ -27,12 +27,12 @@ jobs:
         run: |
           npm run lint
 
-      - name: Read issues.json
+      - name: Read eslint.log.json
         id: read-issues
         if: always()
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./issues.json
+          path: ./eslint.log.json
 
       - name: Create comment
         uses: jungwinter/comment@v1
