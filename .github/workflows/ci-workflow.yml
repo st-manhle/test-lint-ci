@@ -43,4 +43,4 @@ jobs:
           # body: "${{fromJson(steps.set_var.outputs.packageJson).version}}"
           body: "Create comment test"
           issue_number: ${{ github.event.pull_request.number }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACTION_SECRET }}
