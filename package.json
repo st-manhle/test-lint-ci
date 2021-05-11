@@ -12,7 +12,7 @@
   "scripts": {
     "build": "npm run lint && tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint -f ./my-awesome-formatter.js --output-file ./eslint.log.json --ext .ts src"
   },
   "author": "",
   "license": "ISC"
